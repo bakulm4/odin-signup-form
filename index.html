@@ -12,14 +12,14 @@
     <div class="image">
         <div class="logo">
             <img src="./odin-logo.png" alt="Odin Logo">
-            <p class="logo-text" >odin</p>
+            <span class="logo-text" >odin</span>
         </div>
         <span class="credit">Photo by 
             <a href="https://unsplash.com/photos/oJDgZCVUOJ0#:~:text=Photo%20by-,Ryunosuke%20Kikuno,-on%20Unsplash">Ryunosuke Kikuno</a>
             on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </span>
     </div>
-    <form novalidate>
+    <form action='#'>
         <section class="form-text">
             <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. 
                 <br/>Sign up <em>now</em> to get started.
@@ -45,7 +45,7 @@
                     </p>
                 <p class="form-control">
                     <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" id="phone" name="phone">
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}|[0-9]{10}">
                 </p>
             </div>
             <div class="credential">
