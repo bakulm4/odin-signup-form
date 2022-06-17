@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="./script.js" defer></script>
+    <title>Signup Form</title>
+</head>
+<body>
+    <div class="image">
+        <div class="logo">
+            <img src="./odin-logo.png" alt="Odin Logo">
+            <p class="logo-text" >odin</p>
+        </div>
+        <span class="credit">Photo by 
+            <a href="https://unsplash.com/photos/oJDgZCVUOJ0#:~:text=Photo%20by-,Ryunosuke%20Kikuno,-on%20Unsplash">Ryunosuke Kikuno</a>
+            on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </span>
+    </div>
+    <form novalidate>
+        <section class="form-text">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. 
+                <br/>Sign up <em>now</em> to get started.
+            </p>
+            <p>You <em>know</em> you want to.</p>
+        </section>
+        <section class='inputs'>
+            <p>Let's do this!</p>
+            <div class="name">
+                <p class="form-control">
+                     <label for="first-name">FIRST NAME</label>
+                     <input type="text" id="first-name" name="firstName">
+                    </p>
+                <p class="form-control">
+                     <label for="last-name">LAST NAME</label>
+                     <input type="text" id="first-name" name="lastName">
+                    </p>
+            </div>
+            <div class="contact">
+                <p class="form-control">
+                     <label for="email">EMAIL</label>
+                     <input type="email" id="email" name="email">
+                    </p>
+                <p class="form-control">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="phone">
+                </p>
+            </div>
+            <div class="credential">
+                <p class="form-control">
+                    <label for="pwd">PASSWORD</label>
+                    <input type="password" id="pwd" name="password">
+                    <span class="error-message"> </span>
+                 </p>
+                <p class="form-control">
+                    <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-pwd" name="confirmPassword">
+                </p>
+            </div>
+        </section>
+        <section class="submit">
+            <button type='submit'>Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </section>
+    </form>
+
+</body>
+</html>
